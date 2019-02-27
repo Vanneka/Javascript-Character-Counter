@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Word Counter by Vanessa</title>
+</head>
+<link rel="stylesheet" href="style.css">
+
+<body>
+    <table class="app-container">
+        <tr>
+            <td class="app-input">
+                <input type="text" placeholder="Enter your text here..." id="input-text">
+                <input type="text" placeholder="Character Count" readonly="readonly" id="word-count">
+            </td>
+        </tr>
+
+        <tr>
+            <td class="app-buttons">
+                <input type="button" value="Count" id="count-button" onClick="countWords()">
+                <input type="button" value="Reset" id="reset-button" onClick="resetWords()">
+            </td>
+        </tr>
+
+        <tr>
+            <td class="copyright">
+                <p>Designed by Vanessa &copy;2019</p>
+            </td>
+        </tr>
+    </table>
+<script src="script.js"></script>
+</body>
+</html>

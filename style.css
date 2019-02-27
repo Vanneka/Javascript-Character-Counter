@@ -1,0 +1,65 @@
+body {
+    font-family: sans-serif;
+}
+
+.app-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+    width:600px;
+    background-color: #1e2326;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.app-input #input-text {
+    width:600px;
+    padding: 30px;
+    text-align: right;
+    border: none;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.app-input #word-count {
+    width:640px;
+    padding: 10px;
+    border: none;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.app-buttons {
+    text-align: center;
+    padding: 40px 0 0 0;
+}
+
+
+.app-buttons input {
+    border: none;
+    padding: 5px 30px 5px 30px;
+    width: 150px;
+}
+
+.app-buttons input[type="button"]:hover {
+    color: white;
+    cursor: pointer;
+    transition: all ease-in 0.3s;
+}
+
+
+ .app-buttons #count-button {
+    background-color: #fec208;
+}
+
+.app-buttons #reset-button {
+    background-color: #f95b5b;
+} 
+
+.copyright {
+    color: #fff;
+    text-align: center;
+    font-size: 10px;
+}
